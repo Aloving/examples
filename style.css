@@ -251,3 +251,8 @@ template {
 .list__point{
   font-size: 15px;
 }
+
+.list-of-list:not(:first-child){
+  padding-top: 20px;
+  border-top: 2px solid #000;
+}
